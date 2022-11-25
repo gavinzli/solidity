@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "schoolInstructor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Structs_&_Enums.sol": "School"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Structs_&_Enums.sol": {
+			"keccak256": "0x7cb12333b6356125f766685348a19afaa3aba7cec159260ee4440662c49f38a8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4eb38ea50a47b1845ae2c20f43d7796d64d3e719d9e08a3e675e0f777af431a5",
+				"dweb:/ipfs/QmTLotJDxshbX3kc2pGHLWeVTN6s1JJuxDp9fP4MJTV1Bi"
+			]
+		}
+	},
+	"version": 1
+}
