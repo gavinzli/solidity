@@ -82,6 +82,11 @@
 			"version": 1
 		},
 		"userdoc": {
+			"events": {
+				"OwnerChanged(address)": {
+					"notice": "Returns the prices of the Property"
+				}
+			},
 			"kind": "user",
 			"methods": {},
 			"version": 1
@@ -104,11 +109,11 @@
 	},
 	"sources": {
 		"contracts/mycontract.sol": {
-			"keccak256": "0xedfe2d21b2c2ff615a4e0dbde9b9a398c39301cc8e5a2f8902e6ca467ec0757e",
+			"keccak256": "0x29cc05b25be4a873338502dd7e0ae44c25e0a3432f97d384db4372a1e2e7883c",
 			"license": "Gavin",
 			"urls": [
-				"bzz-raw://7f29d485fdba4e3621c649b26f488c6ed6488c78e4f1f65abe04d3fde2dd2f22",
-				"dweb:/ipfs/QmXytSJ885KFPgYe97roAp3cTg1MeNm3jKQQtFhEbFQQpi"
+				"bzz-raw://e12df681e5cae5be2898697d7352ba6f780faff98e67bd936e2857b3886e2724",
+				"dweb:/ipfs/QmQNk7kMrsZxiRSFWuQAxtZqrKWnRYoYNBPgUqxLhzkWsG"
 			]
 		}
 	},

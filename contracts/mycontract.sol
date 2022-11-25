@@ -26,6 +26,8 @@ contract Property{
     function getPrice() view public returns (uint) {
         return price;
     }
+
+    /// @notice Returns the prices of the Property
     event OwnerChanged(address owner);
 }
 
