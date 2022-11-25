@@ -6,44 +6,42 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_price",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "_location",
+						"type": "string"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "owner",
-						"type": "address"
-					}
-				],
-				"name": "OwnerChanged",
-				"type": "event"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
-					}
-				],
-				"name": "changeOwner",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			},
 			{
 				"inputs": [],
 				"name": "getPrice",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "location",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -63,11 +61,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "price",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "_price",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"name": "setPrice",
@@ -82,11 +93,6 @@
 			"version": 1
 		},
 		"userdoc": {
-			"events": {
-				"OwnerChanged(address)": {
-					"notice": "Returns the prices of the Property"
-				}
-			},
 			"kind": "user",
 			"methods": {},
 			"version": 1
@@ -94,7 +100,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/mycontract.sol": "Property"
+			"contracts/state_variables.sol": "Property"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -108,12 +114,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/mycontract.sol": {
-			"keccak256": "0x29cc05b25be4a873338502dd7e0ae44c25e0a3432f97d384db4372a1e2e7883c",
+		"contracts/state_variables.sol": {
+			"keccak256": "0x72abbf163e9b791f1b9e35f14f31c8a6a574be3ea32f255e559c23ce185e5cfb",
 			"license": "Gavin",
 			"urls": [
-				"bzz-raw://e12df681e5cae5be2898697d7352ba6f780faff98e67bd936e2857b3886e2724",
-				"dweb:/ipfs/QmQNk7kMrsZxiRSFWuQAxtZqrKWnRYoYNBPgUqxLhzkWsG"
+				"bzz-raw://c1f9c8d52e403aaf7d5e80b673ed809fe8e73054b2052d11541e86beba475f81",
+				"dweb:/ipfs/QmNR9xQhkq7AeRHx9NdjeBzEib8U6ukDvZi3WEjTSnAEud"
 			]
 		}
 	},
