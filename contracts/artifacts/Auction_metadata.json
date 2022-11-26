@@ -4,34 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "bid",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "bids",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -45,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Mappings.sol": "Auction"
+			"contracts/Storage_vs_Memory.sol": "Auction"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Mappings.sol": {
-			"keccak256": "0x7c10d1281e25a15906721fa78169055c0716834a031f44195e45390b542db544",
+		"contracts/Storage_vs_Memory.sol": {
+			"keccak256": "0xd6bb47dbe380b0875bd31e17be449c8a6043df9e7a2eddcaba2249e3d7aaf261",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://182992395810cfc2a88e2b547a4ba5aa6ae0d7d5a458861fc78714f34d610047",
-				"dweb:/ipfs/QmRfCRdv2eoYCc8byKVxsU4waF2kAebJ1uC4muPtXbi8PF"
+				"bzz-raw://3a43858572b48cb5a94385689bcee3180461df28ee4ea1eb45e31565d0885aed",
+				"dweb:/ipfs/Qmc4HdK5FwzaEAsu2XoyVCr5YRWTMiFMTAu95fDctLGTPn"
 			]
 		}
 	},
