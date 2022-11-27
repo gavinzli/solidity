@@ -6,7 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "eoa",
+						"type": "address"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -174,7 +180,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Project 2 - The Auction Smart Contract/Auction.sol": "Auction"
+			"contracts/Project 2 - The Auction Smart Contract/Auction_with_creator.sol": "Auction"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -188,12 +194,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Project 2 - The Auction Smart Contract/Auction.sol": {
-			"keccak256": "0x1764324b2732a3c60e0fa22329b96be0c832a9a2bfe614f263e63ca577d8cf9e",
+		"contracts/Project 2 - The Auction Smart Contract/Auction_with_creator.sol": {
+			"keccak256": "0x9e858d265d534cf9245145cc9f5be79884dcfc6a5f929b4945bf9192e645354a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7545b7c9b21bae013b6d2f4c2f3bae46d11b770ab9a6ead196c8184a07e5cbef",
-				"dweb:/ipfs/QmdzojoqyNigtLCuB4xoi53wvyeWqVPkasDQMEswt1vehp"
+				"bzz-raw://072c51aab96f8fd7d729d88f7cd2e4a38e5e553f78055770b9b893275482a068",
+				"dweb:/ipfs/QmP9AqjPEJoUbf1HaEFKmwjRNC9Xpr8V7KcMmWo1519NX1"
 			]
 		}
 	},
